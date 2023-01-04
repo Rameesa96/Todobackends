@@ -18,6 +18,9 @@ mongoose.connection.on("error",()=>{
     console.log("mongodb disconnected")
 })
 
+app.get('/',(req,res)=>{
+    res.send("server running")
+})
 //middlewares
 
 app.use(cors())
