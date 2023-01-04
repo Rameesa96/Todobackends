@@ -7,7 +7,7 @@ const CategorySchema = mongoose.Schema({
         },
 
 Priority:{
-    type:String
+    type:Number
 },
 Status:{
     type:String
