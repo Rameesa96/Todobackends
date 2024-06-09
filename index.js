@@ -28,7 +28,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 app.use('/user',User)
-app.use('/shop',Shop)
 app.use('/products',Products)
 app.use('/category',Category)
 
