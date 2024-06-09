@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose= require('mongoose')
 const path=require('path')
 const cors = require("cors")
-const Shop = require('./src/routers/shops')
 const User =require('./src/routers/user')
 const Category = require('./src/routers/category')
 const Products = require('./src/routers/products')
@@ -28,7 +27,6 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 app.use(cors())
-app.use('/shop',Shop)
 app.use('/user',User)
 app.use('/shop',Shop)
 app.use('/products',Products)
