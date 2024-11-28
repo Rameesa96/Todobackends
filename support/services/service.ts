@@ -41,6 +41,7 @@ export const dbPath: Record<string, string> = {
 };
 
 export const pciiData: Record<string, unknown[]> = {
+  "295774345932832770": PCIITEST,
   "295760936122187778": PCIITESTED,
   "295760596131905538": PCIITESTING,
   "295760550514655234": PCIITEST,
