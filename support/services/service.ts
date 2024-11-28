@@ -9,6 +9,7 @@ import { PCIIDRH } from "../../src/content/_pcii-common-drh-new.ts";
 import { PCIIFOPC } from "../../src/content/_pcii-common-adu-fopc-new.ts";
 import { PCIITEST } from "../../src/content/_pcii-common-test-new.ts";
 import { PCIITESTING } from "../../src/content/_pcii-common-testing-new.ts";
+import { PCIITESTED } from "../../src/content/_pcii-common-tested-new.ts";
 
 interface UserDataArray {
   result: User[];
@@ -40,25 +41,9 @@ export const dbPath: Record<string, string> = {
 };
 
 export const pciiData: Record<string, unknown[]> = {
+  "295760936122187778": PCIITESTED,
   "295760596131905538": PCIITESTING,
   "295760550514655234": PCIITEST,
-  "295757110010970114": PCIITEST,
-  "295756777603989506": PCIITEST,
-  "295756514705014786": PCIITEST,
-  "295753180837314562": PCIITESTING,
-  "295753103678898178": PCIITEST,
-  "295752962599288834": PCIITEST,
-  "295752633765855234": PCIITEST,
-  "295752348049866754": PCIITEST,
-  "295750377666510850": PCIITEST,
-  "295750202076168194": PCIITEST,
-  "295749964443680770": PCIITEST,
-  "295749677704282114": PCIITEST,
-  "295741989326946306": PCIITEST,
-  "295741303793123330": PCIITEST,
-  "295734215738130434": PCIITEST,
-  "295478891642880002": PCIITEST,
-  "294874489785679874": PCIITEST,
   "239518031485599747": PCII,
   "266466038894325763": PCIIFOPC,
   "260994517098823683": PCIIDRH,
