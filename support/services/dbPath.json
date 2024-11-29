@@ -4,10 +4,5 @@
   "260994517098823683": "src/content/db/drh/260994517098823683-aggregated.sqlite.db",
   "266318689236709379": "src/content/db/techbd/266318689236709379-aggregated.sqlite.db",
   "283589332437041155": "src/content/db/civco/283589332437041155-aggregated.sqlite.db",
-  "295760550514655234": "src/content/db/test/295760550514655234-aggregated.sqlite.db",
-  "295760596131905538": "src/content/db/testing/295760596131905538-aggregated.sqlite.db",
-  "295760936122187778": "src/content/db/tested/295760936122187778-aggregated.sqlite.db",
-  "295774345932832770": "src/content/db/test/295774345932832770-aggregated.sqlite.db",
-  "295775327668404226": "src/content/db/test/295775327668404226-aggregated.sqlite.db",
-  "295776288046579714": "src/content/db/test/295776288046579714-aggregated.sqlite.db"
+  "295909865740566530": "src/content/db/testing/295909865740566530-aggregated.sqlite.db"
 }
