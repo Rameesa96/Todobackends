@@ -6,5 +6,6 @@
   "283589332437041155": "src/content/db/civco/283589332437041155-aggregated.sqlite.db",
   "295909865740566530": "src/content/db/testing/295909865740566530-aggregated.sqlite.db",
   "295912245538324482": "src/content/db/testing/295912245538324482-aggregated.sqlite.db",
-  "295912344507121666": "src/content/db/citrus/295912344507121666-aggregated.sqlite.db"
+  "295912344507121666": "src/content/db/citrus/295912344507121666-aggregated.sqlite.db",
+  "295912960298057730": "src/content/db/test/295912960298057730-aggregated.sqlite.db"
 }
