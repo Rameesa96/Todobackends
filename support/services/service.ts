@@ -10,6 +10,7 @@ import { PCIIFOPC } from "../../src/content/_pcii-common-adu-fopc-new.ts";
 import { PCIITESTING } from "../../src/content/_pcii-common-testing-new.ts";
 import { PCIICITRUS } from "../../src/content/_pcii-common-citrus-new.ts";
 import { PCIITEST } from "../../src/content/_pcii-common-test-new.ts";
+import { PCIICITRUS12 } from "../../src/content/_pcii-common-citrus12-new.ts";
 
 
 interface UserDataArray {
@@ -42,6 +43,7 @@ export const dbPath: Record<string, string> = {
 };
 
 export const pciiData: Record<string, unknown[]> = {
+  "295913407779962882": PCIICITRUS12,
   "295912960298057730": PCIITEST,
   "295912344507121666": PCIICITRUS,
   "295912245538324482": PCIITESTING,
